@@ -1,3 +1,17 @@
 ---
-layout: default
+layout: home
 ---
+
+<section id="about">
+	<div class="container">
+	  <div class="avatar">
+		<img class="img-circle" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image">
+	  </div>
+	  <h3>I'm <strong>{{ site.author }}</strong>, Software Craftsman.</h3>
+	  <h3>He is also ain love with technology, principally Java, Microservices, Cloud Computing, DevOps, and Software Craftsmanship.</h3>
+	  <h3>Bruno considers himself a software craftsman, and is convinced that we all can create a better world for people with better software.</h3>
+	  <h3>For more check out my academic &amp; professional <a href="">Resume</a>.</h3>
+	  <h3>Contact me at <a href="http://twitter.com/{{ site.twitter }}">@{{ site.twitter }}</a> or by <a href="mailto:{{ site.email }}">email</a>.</h3>
+	  {% include social.html %}
+	</div>
+</section>

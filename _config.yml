@@ -1,20 +1,32 @@
-# Site settings
-title: Blog pessoal Bruno Paixão
-description: Blog pessoal Bruno Paixão
-# baseurl: "/particle" # the subpath of your site, e.g. /blog
-# url: "localhost:3000" # the base hostname & protocol for your site e.g.
+# top level stuff you probably don't need to touch
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+plugins: [jekyll-paginate]
+port: 3000
+safe: true
 
-# User settings
-username: Bruno Paixão
-user_description: Software Craftsman and Enthusiast Data Science 
-user_title: Software Craftsman
-email: brunopaixao87@gmail.com
-twitter_username: brunopaixaobp
-github_username:  brunopaixao87
-gplus_username:  brunopaixao87
 
-# Google-analytics
-google-analytics:
-  id: ""
+# edit here to achieve your personal greatness
+url: https://brunopaixao.dev/
+baseurl: 
+title: Bruno Paixão - Developer
+author: Bruno Paixão
+description: Blog Pessoal
+avatar: profile.png
+email: brunopaixao87@email.com
+github: brunopaixao87 # username
+twitter: brunopaixaodev
+linkedin: bruno-cruz-da-paix%C3%A3o-642b7359/
+instagram: brunocdpaixao
+stackoverflow: username   #e.g: users/2735833/proton1h1
+#Comment out if you don't want disqus
+disqus: username
+google_analytics: UA-135965173-1
 
-exclude: ['package.json', 'src' , 'node_modules']
+
+# needed for travis-ci build
+exclude: [vendor]
