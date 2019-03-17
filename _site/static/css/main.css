@@ -6,7 +6,7 @@ body {
   background-color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
   /* The html and body elements cannot have any padding or margin. */
-  border-top: 3px solid #6495ED;
+  border-top: 3px solid #27A822;
 }
 /* Wrapper for page content to push down footer */
 #wrap {
@@ -17,6 +17,13 @@ body {
   margin: 0 auto -65px;
   /* Pad bottom by footer height */
   /*padding: 0 0 60px;*/
+}
+
+.circular--square {
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
 }
 
 /* Navbar
@@ -96,10 +103,10 @@ body {
   margin: 20px 0;
 }
 .container a {
-  color: #6495ED;
+  color: #27A822;
 }
 .container a:hover {
-  color: #6495EF;
+  color: #267723;
 }
 .img-responsive {
  display: block;
@@ -120,10 +127,10 @@ body {
   font-size: 15px;
 }
 .panel-default h4 a, h5 a {
-  color: #6495ED;
+  color: #27A822;
 }
 .panel-default h4 a:hover, h5 a:hover {
-  color: #6495EF;
+  color: #267723;
 }
 .panel{
   border-style: none;
