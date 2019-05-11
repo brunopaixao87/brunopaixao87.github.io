@@ -3,7 +3,7 @@ style: dark
 
 user:
   email: brunopaixao87@gmai.com
-  bio: <b>Software Craftsman</b></br></br> Bruno é um apaixonado por tecnologia que sempre está buscando adquirir novos conhecimentos. Está convencido que todos nós podemos criar um mundo melhor através de software de qualidade.
+  bio: <b>Software Engineer</b></br></br>Bruno Paixão is passionate about software development and is always learning. Bruno considers himself to be a is software craftman and convinced that through software we can transform the world for the better.
 
 plugins:
   - jekyll-octicons
@@ -42,26 +42,39 @@ social_media:
   # dribbble: your_username
   # facebook: your_username
   linkedin: bruno-cruz-da-paixão-642b7359
-  mvp: 5003259
-  stackoverflow: 17502
+  #mvp: 5003259
+  stackoverflow: 11390788
   twitter: brunopaixaodev
   telegram: brunopaixaodev
   medium: brunopaixaodev
-  speakerdeck: khaosdoctor
-  # youtube: your_username
+  #speakerdeck: brunopaixaodev
+  #youtube: your_username
 
 topics:
-  - name: NodeJS
-    web_url: https://github.com/topics/nodejs
-    image_url: https://raw.githubusercontent.com/github/explore/fd96fceccf8c42c99cbe29cf0f8dcc4736fcb85a/topics/nodejs/nodejs.png
+
+  - name: Java
+    web_url: https://github.com/topics/java
+    image_url: https://raw.githubusercontent.com/github/explore/fd96fceccf8c42c99cbe29cf0f8dcc4736fcb85a/topics/java/java.png
 
   - name: JavaScript
     web_url: https://github.com/topics/javascript
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/javascript/javascript.png
 
-  - name: TypeScript
-    web_url: https://github.com/topics/typescript
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/typescript/typescript.png
+  - name: NodeJS
+    web_url: https://github.com/topics/nodejs
+    image_url: https://raw.githubusercontent.com/github/explore/fd96fceccf8c42c99cbe29cf0f8dcc4736fcb85a/topics/nodejs/nodejs.png
+
+  - name: Angular
+    web_url: https://github.com/topics/angular
+    image_url: https://raw.githubusercontent.com/github/explore/fd96fceccf8c42c99cbe29cf0f8dcc4736fcb85a/topics/angular/angular.png
+  
+  - name: Vue
+    web_url: https://github.com/topics/vue
+    image_url: https://raw.githubusercontent.com/github/explore/46beb428f6ba77f5de33ba7633402379aba5d92d/topics/vue/vue.png
+
+  - name: React
+    web_url: https://github.com/topics/react
+    image_url: https://raw.githubusercontent.com/github/explore/46beb428f6ba77f5de33ba7633402379aba5d92d/topics/react/react.png
 
   - name: Docker
     web_url: https://github.com/topics/docker
@@ -71,30 +84,20 @@ topics:
     web_url: https://github.com/topics/kubernetes
     image_url: https://raw.githubusercontent.com/github/explore/46beb428f6ba77f5de33ba7633402379aba5d92d/topics/kubernetes/kubernetes.png
 
-  - name: Python
-    web_url: https://github.com/topics/python
-    image_url: https://raw.githubusercontent.com/github/explore/46beb428f6ba77f5de33ba7633402379aba5d92d/topics/python/python.png
-
   - name: Go
     web_url: https://github.com/topics/go
     image_url: https://raw.githubusercontent.com/github/explore/46beb428f6ba77f5de33ba7633402379aba5d92d/topics/go/go.png
 
-  - name: Vue
-    web_url: https://github.com/topics/vue
-    image_url: https://raw.githubusercontent.com/github/explore/46beb428f6ba77f5de33ba7633402379aba5d92d/topics/vue/vue.png
+  - name: Clojure
+    web_url: https://github.com/topics/clojure
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/clojure/clojure.png
 
-  - name: React
-    web_url: https://github.com/topics/react
-    image_url: https://raw.githubusercontent.com/github/explore/46beb428f6ba77f5de33ba7633402379aba5d92d/topics/react/react.png
+  - name: Kotlin
+    web_url: https://github.com/topics/kotlin
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/kotlin/kotlin.png
+  
+  - name: Flutter
+    web_url: https://github.com/topics/flutter
+    image_url: https://raw.githubusercontent.com/github/explore/cebd63002168a05a6a642f309227eefeccd92950/topics/flutter/flutter.png
 
-  - name: Terraform
-    web_url: https://github.com/topics/terraform
-    image_url: https://raw.githubusercontent.com/github/explore/a78365e1ed698ba6441a91508591e863cf1f9590/topics/terraform/terraform.png
-
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/46beb428f6ba77f5de33ba7633402379aba5d92d/topics/css/css.png
-
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/46beb428f6ba77f5de33ba7633402379aba5d92d/topics/sass/sass.png
+  
